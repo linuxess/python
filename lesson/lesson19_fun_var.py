@@ -52,6 +52,7 @@ Let's print three lines:
 
 seek(offset[, whence]) -> None.  Move to new file position.
 seek 返回none，offset >=0 以字节为单位移动到新的位置。whence:0从起始位置移动，1从当前位置移动，2从结束位置移动.
+     seek() 函数的处理对象是 字节 而非行，所以 seek(0) 只是转到文件的 0 byte，也就是第一个 byte 的位置。
 += 是什么？
 英语里边 “it is” 可以写成 “it’s”，”you are” 可以写成 “you’re”，这叫做简写。而这个操作符是吧 = 和 + 简写到一起了。 x += y 的意思和 x = x + y 是一样的。
 """
