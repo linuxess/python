@@ -56,4 +56,8 @@ who
 >>> less25_module.print_first_and_last(sentence)
 All
 wait.
+
+
+When should I print vs. return in a function?
+You need to understand that print is only for printing to the screen, and that you can actually do both print and return a value. When you understand this then you'll see that the question is kind of a pointless question. You use print when you want to print. You use return when you want to return.
 """
