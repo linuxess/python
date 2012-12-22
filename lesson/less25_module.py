@@ -23,7 +23,7 @@ def print_last_word(words):
 
 def sort_sentence(sentence):
     """takes in a full sentence and returns the sorted words."""
-    words = break_word(sentence)
+    words = break_words(sentence)
     return sort_words(words)
 
 def print_first_and_last(sentence):
