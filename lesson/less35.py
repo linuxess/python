@@ -19,6 +19,7 @@ def gold_room():
         exit(0)
     else:
         dead("you greedy bastard")
+#dead函数在下面定义。
 
 def bear_room():
     print "there is a bear here"
