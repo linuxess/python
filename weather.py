@@ -4,7 +4,6 @@
 ########模块
 import urllib
 import json
-import termcolor
 import os
 
 ########变量
@@ -49,8 +48,8 @@ if __name__ == '__main__':
     low2 = wea_message.weather_type('low1')
     high2 = wea_message.weather_type('high2')
     try:
-	print u"你要查询的城市：" + termcolor.colored(name,'yellow', attrs=['bold']) + \
+	print u"你要查询的城市：" + name + \
 		u"\n\n今日天气：\n" + text1 + u"\n最低温：" + low1 + u"\n最高温：" + \
 		high1 + u"\n\n明天天气：\n" + text2 + u"\n最低温：" + low2 + u"\n最高温：" + high2
     except:
-	print termcolor.colored("Input error!!!",'red',attrs=['bold'])
+	print "Input error!!!"
